@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(230,239,246);
+    font-family: 'Karla', sans-serif;
+}
+.sub{
+    background-color: rgb(255,255,255);
+    padding: 40px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.sub2{
+    display: flex;
+    color: white;
+}
+.container{
+    display: flex;
+}
+.four{
+  background-color: rgb(43,179,177);
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.sub3{
+    background-color: rgb(74,190,189);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 50px;
+    border-bottom-right-radius: 12px;
+}
+.move{
+    padding-left: 20px;
+    padding-top: 6px;
+}
+.contain{
+    line-height: 22px;
+}
+.one{
+    color: rgb(106,204,199);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.two{
+    padding-bottom: 20px;
+     padding-left: 10px;
+    color: rgb(206,224,123);
+    font-size: 19px;
+}
+.three{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.four{
+    padding: 50px;
+    border-bottom-left-radius: 12px;
+}
+.five{
+    padding-bottom: 25px;
+    font-size: 17px;
+}
+.six{
+    padding-bottom: 18px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.seven{
+    padding-bottom: 32px;
+}
+.eight{
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+button{
+    height: 24%;
+    width: 100%;
+    color: white;
+    border: 15px;
+    border-radius: 7px;
+    background-color: rgb(191,223,50);
+    font-size: 90%;
+    transition: .5s;
+}
+button:hover {
+   transform: scale(1.1);
+}
+@media  screen and (max-width:600px) {
+    .sub2{
+    flex-direction: column;
+    }
+    .four{
+     border-bottom-left-radius: 0px;
+    }
+    button{
+        height: 50px;
+    }
+    .sub3{
+        border-bottom-right-radius: 0px;
+    }
+}
